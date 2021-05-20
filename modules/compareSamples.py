@@ -14,8 +14,10 @@ def compareDna(dna, sample):
     listTH01 = np.array([dna[4].dot(sample[4]), dna[4].dot(sample[5]), dna[5].dot(sample[4]), dna[5].dot(sample[5])])
     listVWA = np.array([dna[6].dot(sample[6]), dna[6].dot(sample[7]), dna[7].dot(sample[6]), dna[7].dot(sample[7])])
     listD13S317 = np.array([dna[8].dot(sample[8]), dna[8].dot(sample[9]), dna[9].dot(sample[8]), dna[9].dot(sample[9])])
-    listD21S11 = np.array([dna[10].dot(sample[10]), dna[10].dot(sample[11]), dna[11].dot(sample[10]), dna[11].dot(sample[11])])
-    listAMEL = np.array([dna[12].dot(sample[12]), dna[12].dot(sample[13]), dna[13].dot(sample[12]), dna[13].dot(sample[13])])
+    listD21S11 = np.array([dna[10].dot(sample[10]), dna[10].dot(sample[11]), dna[11].dot(sample[10]),
+                           dna[11].dot(sample[11])])
+    listAMEL = np.array([dna[12].dot(sample[12]), dna[12].dot(sample[13]), dna[13].dot(sample[12]),
+                         dna[13].dot(sample[13])])
 
     dotTP0X = dotFGA = dotTH01 = dotVWA = dotD13S317 = dotD21S11 = dotAMEL = []
     num = 0
@@ -39,6 +41,6 @@ def compareDna(dna, sample):
     for i in range(0, 2):
         num += (dotTP0X[i] + dotFGA[i] + dotTH01[i] + dotVWA[i] + dotD13S317[i] + dotD21S11[i] + dotAMEL[i])
 
-    percentage = 100 - ((num/182)*100)
+    percentage: float = 100 - ((num/182)*100)
 
     return percentage
