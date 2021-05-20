@@ -7,10 +7,22 @@
 import numpy as np
 
 
-def dnaToList(dna):
+def dnaToNum(dna):
+
     dnaNum = dna.replace("A", "1").replace("G", "2").replace("C", "3").replace("T", "4")
 
-    dnaNum = [int(a) for a in dnaNum]
+    return dnaNum
+
+
+def sampleToNum(sample):
+
+    sampleNum = sample.replace("A", "1").replace("G", "2").replace("C", "3").replace("T", "4")
+
+    return sampleNum
+
+
+def dnaToMatrix(dna):
+    dnaNum = [int(a) for a in dna]
 
     shape = (14, 13)
     dnaArray = np.array(dnaNum).reshape(shape)
@@ -19,13 +31,12 @@ def dnaToList(dna):
 
 
 def sampleToList(sample):
-    sampleNum = sample.replace("A", "1").replace("G", "2").replace("C", "3").replace("T", "4")
 
-    sampleNum = [float(a) for a in sampleNum]
+    sampleNum = [float(a) for a in sample]
 
     for i in range(0, len(sampleNum)):
         if sampleNum[i] != 0:
-            sampleNum[i] = 1/sampleNum[i]
+            sampleNum[i] = 1 / sampleNum[i]
 
     shape = (14, 13)
     sampleArray = np.array(sampleNum).reshape(shape)
