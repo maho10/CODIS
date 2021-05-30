@@ -6,16 +6,11 @@
 
 import numpy as np
 
+
 def dnaToNum(dna):
     dnaNum = dna.replace("A", "1").replace("G", "2").replace("C", "3").replace("T", "4")
 
     return dnaNum
-
-
-def sampleToNum(sample):
-    sampleNum = sample.replace("A", "1").replace("G", "2").replace("C", "3").replace("T", "4")
-
-    return sampleNum
 
 
 def dnaToMatrix(dna):
@@ -41,6 +36,7 @@ def sampleToList(sample):
 
     return sampleArray
 
+
 def compareDna(dna_str, sample_str):
     dna = dnaToMatrix(dna_str)
     sample = sampleToList(sample_str)
@@ -54,24 +50,31 @@ def compareDna(dna_str, sample_str):
     listAMEL = np.array([dna[12].dot(sample[12]), dna[12].dot(sample[13]), dna[13].dot(sample[12]),
                          dna[13].dot(sample[13])])
 
-    dotTP0X = dotFGA = dotTH01 = dotVWA = dotD13S317 = dotD21S11 = dotAMEL = []
+    dotTP0X = []
+    dotFGA = []
+    dotTH01 = []
+    dotVWA = []
+    dotD13S317 = []
+    dotD21S11 = []
+    dotAMEL = []
     num = 0
 
     for i in range(0, len(listTP0X)):
         dotTP0X.append(abs(listTP0X[i] - 13))
-        dotTP0X.sort()
         dotFGA.append(abs(listFGA[i] - 13))
-        dotFGA.sort()
-        dotTH01.append(abs(listTH01 - 13))
-        dotTH01.sort()
+        dotTH01.append(abs(listTH01[i] - 13))
         dotVWA.append(abs(listVWA[i] - 13))
-        dotVWA.sort()
         dotD13S317.append(abs(listD13S317[i] - 13))
-        dotD13S317.sort()
         dotD21S11.append(abs(listD21S11[i] - 13))
-        dotD21S11.sort()
         dotAMEL.append(abs(listAMEL[i] - 13))
-        dotAMEL.sort()
+
+    dotAMEL.sort()
+    dotD21S11.sort()
+    dotD13S317.sort()
+    dotVWA.sort()
+    dotTH01.sort()
+    dotFGA.sort()
+    dotTP0X.sort()
 
     for i in range(0, 2):
         num += (dotTP0X[i] + dotFGA[i] + dotTH01[i] + dotVWA[i] + dotD13S317[i] + dotD21S11[i] + dotAMEL[i])
