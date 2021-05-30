@@ -6,8 +6,44 @@
 
 import numpy as np
 
+def dnaToNum(dna):
+    dnaNum = dna.replace("A", "1").replace("G", "2").replace("C", "3").replace("T", "4")
 
-def compareDna(dna, sample):
+    return dnaNum
+
+
+def sampleToNum(sample):
+    sampleNum = sample.replace("A", "1").replace("G", "2").replace("C", "3").replace("T", "4")
+
+    return sampleNum
+
+
+def dnaToMatrix(dna):
+    dnaNum = [int(a) for a in dna]
+
+    shape = (14, 13)
+    dnaArray = np.array(dnaNum).reshape(shape)
+
+    return dnaArray
+
+
+def sampleToList(sample):
+    sampleNum_str = sample.replace("A", "1").replace("G", "2").replace("C", "3").replace("T", "4")
+
+    sampleNum = [float(a) for a in sampleNum_str]
+
+    for i in range(0, len(sampleNum)):
+        if sampleNum[i] != 0:
+            sampleNum[i] = 1 / sampleNum[i]
+
+    shape = (14, 13)
+    sampleArray = np.array(sampleNum).reshape(shape)
+
+    return sampleArray
+
+def compareDna(dna_str, sample_str):
+    dna = dnaToMatrix(dna_str)
+    sample = sampleToList(sample_str)
     listTP0X = np.array([dna[0].dot(sample[0]), dna[0].dot(sample[1]), dna[1].dot(sample[0]), dna[1].dot(sample[1])])
     listFGA = np.array([dna[2].dot(sample[2]), dna[2].dot(sample[3]), dna[3].dot(sample[2]), dna[3].dot(sample[3])])
     listTH01 = np.array([dna[4].dot(sample[4]), dna[4].dot(sample[5]), dna[5].dot(sample[4]), dna[5].dot(sample[5])])
