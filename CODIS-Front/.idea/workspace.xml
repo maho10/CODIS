@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6128e142-98f9-48bd-aeed-ac4f985c7785" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/.browserslistrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/capacitor.config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/ionic.config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/app/app.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/app/explore-container/explore-container.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/app/explore-container/explore-container.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/app/explore-container/explore-container.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/app/explore-container/explore-container.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/app/explore-container/explore-container.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/app/tab1/tab1-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/app/tab1/tab1.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/app/tab1/tab1.page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/app/tab1/tab1.page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/app/tab1/tab1.page.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/app/tab1/tab1.page.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/app/tab2/tab2-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/app/tab2/tab2.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/app/tab2/tab2.page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/app/tab2/tab2.page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/app/tab2/tab2.page.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/app/tab2/tab2.page.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/app/tab3/tab3-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/app/tab3/tab3.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/app/tab3/tab3.page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/app/tab3/tab3.page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/app/tab3/tab3.page.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/app/tab3/tab3.page.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/app/tabs/tabs-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/app/tabs/tabs.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/app/tabs/tabs.page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/app/tabs/tabs.page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/app/tabs/tabs.page.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/app/tabs/tabs.page.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/assets/icon/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/assets/shapes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/global.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/theme/variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/src/zone-flags.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codis/tsconfig.spec.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1tGhj370JRv4Lg6K998wdemb0Bo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6128e142-98f9-48bd-aeed-ac4f985c7785" name="Default Changelist" comment="" />
+      <created>1622401472271</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622401472271</updated>
+      <workItem from="1622401474811" duration="2806000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
