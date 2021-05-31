@@ -2,70 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6128e142-98f9-48bd-aeed-ac4f985c7785" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/.browserslistrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/.eslintrc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/capacitor.config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/e2e/protractor.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/e2e/src/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/e2e/src/app.po.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/e2e/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/ionic.config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/karma.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/app/app-routing.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/app/app.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/app/app.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/app/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/app/explore-container/explore-container.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/app/explore-container/explore-container.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/app/explore-container/explore-container.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/app/explore-container/explore-container.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/app/explore-container/explore-container.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/app/tab1/tab1-routing.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/app/tab1/tab1.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/app/tab1/tab1.page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/app/tab1/tab1.page.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/app/tab1/tab1.page.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/app/tab1/tab1.page.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/app/tab2/tab2-routing.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/app/tab2/tab2.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/app/tab2/tab2.page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/app/tab2/tab2.page.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/app/tab2/tab2.page.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/app/tab2/tab2.page.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/app/tab3/tab3-routing.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/app/tab3/tab3.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/app/tab3/tab3.page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/app/tab3/tab3.page.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/app/tab3/tab3.page.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/app/tab3/tab3.page.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/app/tabs/tabs-routing.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/app/tabs/tabs.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/app/tabs/tabs.page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/app/tabs/tabs.page.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/app/tabs/tabs.page.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/app/tabs/tabs.page.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/assets/icon/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/assets/shapes.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/environments/environment.prod.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/environments/environment.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/global.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/polyfills.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/theme/variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/src/zone-flags.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codis/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CODIS-Front.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODIS-Front/.browserslistrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODIS-Front/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODIS-Front/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODIS-Front/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODIS-Front/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODIS-Front/capacitor.config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODIS-Front/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODIS-Front/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODIS-Front/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODIS-Front/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODIS-Front/ionic.config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODIS-Front/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODIS-Front/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODIS-Front/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/app/app.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/app/home/home-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/app/home/home.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/app/home/home.page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/app/home/home.page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/app/home/home.page.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/app/home/home.page.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/assets/icon/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/assets/shapes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/global.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/theme/variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/zone-flags.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODIS-Front/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODIS-Front/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODIS-Front/tsconfig.spec.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +65,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CODIS-Front" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -100,7 +81,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622401472271</updated>
-      <workItem from="1622401474811" duration="2806000" />
+      <workItem from="1622401474811" duration="2886000" />
+      <workItem from="1622424167105" duration="880000" />
+      <workItem from="1622425130543" duration="17000" />
+      <workItem from="1622425151410" duration="941000" />
+      <workItem from="1622427487768" duration="17000" />
+      <workItem from="1622428846335" duration="1622000" />
     </task>
     <servers />
   </component>
