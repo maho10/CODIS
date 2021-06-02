@@ -30,9 +30,11 @@ def createDna():
 @app.route('/dna/<sample>', methods=['GET'])
 def getDna(sample):
     info = DNA.find()
-    data = [{'name': inf['name'], 'dpi': inf['dpi'], 'dna': inf['dna'], 'percentage': compareDna(inf['dna'], sample)}
+    data = [{'name': inf['name'], 'dpi': inf['dpi'], 'percentage': compareDna(inf['dna'], sample)}
             for inf in info]
 
-    retData = sorted(1, key=itemgetter('percentage'), reverse=True)
+    data.sort(key=itemgetter('percentage'), reverse=True)
 
-    return {'data': jsonify(retData)}
+    str_data = json.dumps(data)
+
+    return str_data

@@ -1,9 +1,30 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>infoslide</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
+  <ion-slides pager="true">
 
+    <ion-slide>
+      <h1>DeCODIS</h1>
+      <div class="container-back">
+        <div class="button-start">
+          <ion-button fill="clear" routerLink="/home">Saltar <ion-icon slot="end" name="arrow-forward"></ion-icon>
+          </ion-button>
+        </div>
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <h2>DeCodis es una aplicación de análisis comparativo de ADN tipo CODIS, a través de la cual se pueden ingresar perfiles o comparar muestras
+      recogidas en escenas criminales o de otro tipo</h2>
+    </ion-slide>
+
+    <ion-slide>
+      <h2>A la hora de comparar muestras de ADN, si la muestra está completa, un porcentaje de coincidencia de más del 75% indica familiaridad de 1° grado, y más del 50% familiaridad de segundo grado.
+      Si la muestra se encuentra dañada, es aceptable más del 80% de coincidencia con uno de los perfiles guardados</h2>
+      <div class="container-back">
+        <div class="button-start">
+          <ion-button fill="clear" routerLink="/home">Comencemos <ion-icon slot="end" name="arrow-forward"></ion-icon>
+          </ion-button>
+        </div>
+      </div>
+    </ion-slide>
+  </ion-slides>
 </ion-content>

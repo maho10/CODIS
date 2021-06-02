@@ -1,20 +1,20 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+<ion-header class="ion-no-margin" [translucent]="true">
+  <ion-toolbar class="ion-no-margin">
+    <div class="back-circle"></div>
+    <div class="header">
+      <h4>DeCodis</h4>
+    </div>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <div class="title">
+    <h1>Selecciona lo que deseas hacer</h1>
+  </div>
+  <div style="text-align: center; padding: 1em">
+    <ion-button expand="block"  routerLink="/dna">Ingresar un perfil de ADN</ion-button>
+  </div>
+  <div style="text-align: center; padding: 1em">
+    <ion-button expand="block"  routerLink="/sample">Comparar una muestra</ion-button>
   </div>
 </ion-content>

@@ -1,0 +1,84 @@
+ion-content{
+
+  --ion-background-color: linear-gradient(197deg, rgb(245, 165, 241) 0%, rgb(195, 89, 233) 30%, rgb(214, 83, 216) 60%, rgb(168, 52, 199) 100%) !important;
+  --ion-text-color: #ffd5eb;
+
+  ion-slides {
+    height: 100%;
+
+  }
+
+  .button-start{
+    margin: auto;
+    width: 50%;
+  }
+
+
+  .container-back{
+    width: 100%;
+    position: absolute;
+    bottom: 10%;
+  }
+
+  .swiper-slide {
+    display: block;
+  }
+
+  .swiper-slide h2 {
+    margin-top: 1.5vh;
+    padding: 3vw;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 6vw;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 28vh;
+  }
+  .swiper-slide h1 {
+    margin: 1vh;
+    background: -webkit-linear-gradient(30deg, #f5a5f1, #ffd5eb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20vw;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 58vh;
+    transform: translateY(-20vh);
+  }
+  .swiper-slide h3 {
+    margin: 2vh;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 4.5vw;
+    font-style: italic;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 60vh;
+    transform: translateY(-10vh);
+  }
+
+  .swiper-slide img {
+    max-height: 40vh;
+    max-width: 50vw;
+    margin: 3vh;
+    pointer-events: none;
+    position: absolute;
+    left: 18vw;
+    right: 0;
+    top: 30vh;
+    transform: translateY(-10vh);
+  }
+
+  .swiper-slide ion-button {
+    color: #ffd5eb;
+    // margin: 120px 10px;
+    font-size: 5vw;
+    font-style: italic;
+  }
+
+}

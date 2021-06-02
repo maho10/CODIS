@@ -8,6 +8,7 @@ import numpy as np
 
 
 def dnaToNum(dna):
+    dna = dna.upper()
     dnaNum = dna.replace("A", "1").replace("G", "2").replace("C", "3").replace("T", "4")
 
     return dnaNum
@@ -23,7 +24,8 @@ def dnaToMatrix(dna):
 
 
 def sampleToList(sample):
-    sampleNum_str = sample.replace("A", "1").replace("G", "2").replace("C", "3").replace("T", "4")
+    sample = sample.upper()
+    sampleNum_str = sample.replace("A", "1").replace("G", "2").replace("C", "3").replace("T", "4").replace("I", "0")
 
     sampleNum = [float(a) for a in sampleNum_str]
 

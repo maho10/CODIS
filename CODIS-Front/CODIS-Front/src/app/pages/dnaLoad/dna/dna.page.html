@@ -1,9 +1,115 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>dna</ion-title>
+<ion-header class="ion-no-margin">
+  <ion-toolbar class="ion-no-margin">
+    <div class="back-circle"></div>
+    <div class="header">
+      <h4>DeCodis</h4>
+    </div>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content [fullscreen]="true">
+  <div class="title">
+    <h1>Perfil de ADN</h1>
+  </div>
 
+  <form [formGroup] = "dnaForm" (ngSubmit)="addDna()"  style="padding: 1px 1em 0">
+    <ion-item>
+      <ion-label position="floating">Nombre</ion-label>
+      <ion-input formControlName="name"></ion-input>
+    </ion-item>
+    <div *ngFor="let validation of validationMessages.name">
+      <ion-label class="errorLabel" position="stacked" color="danger"
+                 *ngIf="dnaForm.controls.name.hasError(validation.type) && (dnaForm.controls.name.dirty || dnaForm.controls.name.touched)">
+        {{ validation.message }}
+      </ion-label>
+    </div>
+
+    <ion-item>
+      <ion-label position="floating">DPI</ion-label>
+      <ion-input formControlName="dpi"></ion-input>
+    </ion-item>
+    <div *ngFor="let validation of validationMessages.dpi">
+      <ion-label class="errorLabel" position="stacked" color="danger"
+                 *ngIf="dnaForm.controls.dpi.hasError(validation.type) && (dnaForm.controls.dpi.dirty || dnaForm.controls.dpi.touched)">
+        {{ validation.message }}
+      </ion-label>
+    </div>
+    <div class="title">
+      <h2>Ingrese ambas cadenas del sitio que se le indica juntas (26 bases), sin dejar espacios de por medio. El orden de las cadenas no es importante</h2>
+    </div>
+    <ion-item>
+      <ion-label position="floating">Sitio TP0X</ion-label>
+      <ion-input formControlName="dnaTP0X"></ion-input>
+    </ion-item>
+    <div *ngFor="let validation of validationMessages.dnaTP0X">
+      <ion-label class="errorLabel" position="stacked" color="danger"
+                 *ngIf="dnaForm.controls.dnaTP0X.hasError(validation.type) && (dnaForm.controls.dnaTP0X.dirty || dnaForm.controls.dnaTP0X.touched)">
+        {{ validation.message }}
+      </ion-label>
+    </div>
+    <ion-item>
+      <ion-label position="floating">Sitio FGA</ion-label>
+      <ion-input formControlName="dnaFGA"></ion-input>
+    </ion-item>
+    <div *ngFor="let validation of validationMessages.dnaFGA">
+      <ion-label class="errorLabel" position="stacked" color="danger"
+                 *ngIf="dnaForm.controls.dnaFGA.hasError(validation.type) && (dnaForm.controls.dnaFGA.dirty || dnaForm.controls.dnaFGA.touched)">
+        {{ validation.message }}
+      </ion-label>
+    </div>
+    <ion-item>
+      <ion-label position="floating">Sitio TH01</ion-label>
+      <ion-input formControlName="dnaTH01"></ion-input>
+    </ion-item>
+    <div *ngFor="let validation of validationMessages.dnaTH01">
+      <ion-label class="errorLabel" position="stacked" color="danger"
+                 *ngIf="dnaForm.controls.dnaTH01.hasError(validation.type) && (dnaForm.controls.dnaTH01.dirty || dnaForm.controls.dnaTH01.touched)">
+        {{ validation.message }}
+      </ion-label>
+    </div>
+    <ion-item>
+      <ion-label position="floating">Sitio VWA</ion-label>
+      <ion-input formControlName="dnaVWA"></ion-input>
+    </ion-item>
+    <div *ngFor="let validation of validationMessages.dnaVWA">
+      <ion-label class="errorLabel" position="stacked" color="danger"
+                 *ngIf="dnaForm.controls.dnaVWA.hasError(validation.type) && (dnaForm.controls.dnaVWA.dirty || dnaForm.controls.dnaVWA.touched)">
+        {{ validation.message }}
+      </ion-label>
+    </div>
+    <ion-item>
+      <ion-label position="floating">Sitio D13S317</ion-label>
+      <ion-input formControlName="dnaD13S317"></ion-input>
+    </ion-item>
+    <div *ngFor="let validation of validationMessages.dnaD13S317">
+      <ion-label class="errorLabel" position="stacked" color="danger"
+                 *ngIf="dnaForm.controls.dnaD13S317.hasError(validation.type) && (dnaForm.controls.dnaD13S317.dirty || dnaForm.controls.dnaD13S317.touched)">
+        {{ validation.message }}
+      </ion-label>
+    </div>
+    <ion-item>
+      <ion-label position="floating">Sitio D21S11</ion-label>
+      <ion-input formControlName="dnaD21S11"></ion-input>
+    </ion-item>
+    <div *ngFor="let validation of validationMessages.dnaD21S11">
+      <ion-label class="errorLabel" position="stacked" color="danger"
+                 *ngIf="dnaForm.controls.dnaD21S11.hasError(validation.type) && (dnaForm.controls.dnaD21S11.dirty || dnaForm.controls.dnaD21S11.touched)">
+        {{ validation.message }}
+      </ion-label>
+    </div>
+    <ion-item>
+      <ion-label position="floating">Sitio AMEL</ion-label>
+      <ion-input formControlName="dnaAMEL"></ion-input>
+    </ion-item>
+    <div *ngFor="let validation of validationMessages.dnaAMEL">
+      <ion-label class="errorLabel" position="stacked" color="danger"
+                 *ngIf="dnaForm.controls.dnaAMEL.hasError(validation.type) && (dnaForm.controls.dnaAMEL.dirty || dnaForm.controls.dnaAMEL.touched)">
+        {{ validation.message }}
+      </ion-label>
+    </div>
+    <div style="text-align: center; padding: 1em">
+      <ion-button type="submit" expand="block" [disabled]="!dnaForm.valid">Enviar Perfil</ion-button>
+    </div>
+  </form>
+  <p class="ion-text-right"><a routerLink="/home">Regresar</a></p>
 </ion-content>
