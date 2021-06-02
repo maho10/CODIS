@@ -1,96 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6128e142-98f9-48bd-aeed-ac4f985c7785" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/CODIS-Front.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODIS-Front/.browserslistrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODIS-Front/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODIS-Front/.eslintrc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODIS-Front/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODIS-Front/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODIS-Front/capacitor.config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODIS-Front/e2e/protractor.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODIS-Front/e2e/src/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODIS-Front/e2e/src/app.po.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODIS-Front/e2e/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODIS-Front/ionic.config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODIS-Front/karma.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODIS-Front/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODIS-Front/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/app/app-routing.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/app/app.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/app/app.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/app/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/app/home/home-routing.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/app/home/home.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/app/home/home.page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/app/home/home.page.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/app/home/home.page.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/app/home/home.page.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/assets/icon/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/assets/shapes.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/environments/environment.prod.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/environments/environment.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/global.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/polyfills.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/theme/variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODIS-Front/src/zone-flags.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODIS-Front/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODIS-Front/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODIS-Front/tsconfig.spec.json" beforeDir="false" />
-    </list>
+    <list default="true" id="8df49210-1d24-4fa5-b427-5be422c75673" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
-  <component name="ProjectId" id="1tGhj370JRv4Lg6K998wdemb0Bo" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1tHeXXcOElIGgpzGLjE3vKkD7PJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/CODIS-Front" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Users\Majix\OneDrive - Universidad del Valle de Guatemala\Documentos\Uni\Tercer semestre\Herramientas\Proyecto\CODIS\CODIS-Front\CODIS-Front\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Majix\OneDrive - Universidad del Valle de Guatemala\Documentos\Uni\Tercer semestre\Herramientas\Proyecto\CODIS\CODIS-Front\CODIS-Front\src\app\pages" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="Tests (app)" type="JavaScriptTestRunnerKarma">
+      <config-file value="$PROJECT_DIR$/karma.conf.js" />
+      <working-directory value="$PROJECT_DIR$" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="E2E Tests (app)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6128e142-98f9-48bd-aeed-ac4f985c7785" name="Default Changelist" comment="" />
-      <created>1622401472271</created>
+      <changelist id="8df49210-1d24-4fa5-b427-5be422c75673" name="Default Changelist" comment="" />
+      <created>1622430482594</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1622401472271</updated>
-      <workItem from="1622401474811" duration="2886000" />
-      <workItem from="1622424167105" duration="880000" />
-      <workItem from="1622425130543" duration="17000" />
-      <workItem from="1622425151410" duration="941000" />
-      <workItem from="1622427487768" duration="17000" />
-      <workItem from="1622428846335" duration="1622000" />
+      <updated>1622430482594</updated>
+      <workItem from="1622430483798" duration="28862000" />
+      <workItem from="1622570658154" duration="17040000" />
+      <workItem from="1622598039597" duration="1514000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
